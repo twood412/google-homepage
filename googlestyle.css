@@ -1,0 +1,165 @@
+/*Nav Bar*/
+#navbar {
+	padding-top: 20px;
+	padding-bottom: 12px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+
+}
+
+#companyNav {
+	width: 50%;
+	float: left;
+}
+
+#companyNav a {
+	display: inline-flex;
+	padding: 3px;
+	margin-left: 20px;
+}
+
+#userNav {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+#userNav a {
+	display: inline;
+	padding: 3px;
+	margin-right: 15px;
+}
+
+#menubutton {
+	width: 16px;
+}
+
+#userNav a button {
+	background-color: #4E91FF;
+	color: white;
+	font-weight: bold;
+	padding: 7px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border: none;
+	border-radius: 2px;
+}
+
+#userNav a button:hover {
+	box-shadow: 0px 1px 2px #404040;
+	text-decoration: none;
+}
+
+/*Google Logo Image*/
+#logo {
+	height: 100px;
+	text-align: center;
+	margin-top: 125px;
+	clear: both;
+	padding-top: 60px;
+}
+
+/*Search box div*/
+#searchbox {
+	text-align: center;
+	clear: both;
+	padding: 20px;
+}
+
+/*search box*/
+#searchtext {
+	width: 475px;
+	height: 25px;
+	border: 1px solid #DCE1E6;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+input:hover {
+	box-shadow: 1px 1px 4px #DCE1E6, -1px -1px 4px #DCE1E6;
+}
+
+/*search buttons div*/
+#searchButtons {
+	text-align: center;
+	padding: 5px;
+}
+/*search buttons style*/
+#searchButtons button {
+	font-size: 14px;
+	border-radius: 4px;
+	padding: 9px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+	color: #515354;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#searchButtons button:hover {
+	border: 1px solid #C0C4C2;
+	border-bottom: 2px solid #C0C4C2;
+	cursor: pointer;
+}
+
+/*footer nav*/
+#footer {
+	background-color: #F2F2F2;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px ridge lightgray;
+}
+
+#footer a {
+	padding: 5px;
+	color: #515354;
+}
+
+#businessNav {
+	background-color: #F2F2F2;
+	float: left;
+	width: 50%;	
+}
+
+#businessNav a {
+	margin-left: 18px;
+}
+
+#policyNav {
+	background-color: #F2F2F2;
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+#policyNav a {
+	margin-right: 18px;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+/*links*/
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+input:focus {
+	outline: none;
+}
